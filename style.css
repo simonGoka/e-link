@@ -1,0 +1,206 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #202020, #0c0c0c);
+}
+.blay-pic {
+    height: auto;
+}
+
+.blay-pic p {
+    display: absolute;
+    left:20%;
+    margin-left: 20%;
+    top: 10%;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+}
+img {
+    width: 42%;
+    height: auto;
+    margin-left: 36%;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    
+}
+h2 {
+    
+    text-align: center;
+    font-size: 2.5rem;
+    color: #df0ad4;
+    margin-top: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 5px;
+} 
+nav a {
+    text-decoration: none;
+    color: #df0ad4;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    padding: 1px 2px;
+    border-radius: 5px;
+    height: 90px;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background-color: #df0ad4;
+    color: #fff;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.email-button {
+    background-color: #df0ad4;
+    width: 60px;
+    height: 30px;
+    border-radius: 13px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-button:hover {
+    background-color: #c509bb;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fcfbfb;
+    margin-top: 1px;
+    margin-right: 57%;
+}
+span {
+    color: #df0ad4;
+    font-weight: bold;
+}
+
+.circle-figure img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+
+}
+p {
+    font-size: 1rem;
+    color: white;
+    margin-top: 20px;
+    margin-right: 57%;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+}
+.next h2 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.next p {
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #ffffff;   
+}
+.next a {
+    text-decoration: none;
+    color: #df0ad4;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f056e8;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Raleway';
+}
+.next a:hover {
+    background-color: #df0ad4;
+    color: #fff;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.cards > div {
+    flex: 1;
+    min-width: 250px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    font-family: 'Raleway';
+}
+
+
+.card-1 {
+    background-image: url('/images/IMG-20250625-WA0030.jpg');
+}
+
+.card-2 {
+    background-image: url('/images/WhatsApp\ Image\ 2025-06-25\ at\ 17.46.11_4b83d48a.jpg');
+}
+
+.card-3 {
+    background-image: url('/images/IMG-20250625-WA0027.jpg');
+}
+
+
+.card-4 {
+    background-image: url('/images/ups.jpg');
+}
+
+.card-5 {
+    background-image: url('/images/group.jpg');
+}
+
+.card-6 {
+    background-image: url('/images/nvr.jpg');
+}
+
+
+.socials {
+    align-items:center;
+    display: flex;
+}
+.socials p {
+    align-items: center;
+    text-align: center;
+    margin-left:44%;
+}
+.socials p a {
+        color: white;
+        text-decoration: none;
+}
