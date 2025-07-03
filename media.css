@@ -49,14 +49,14 @@
     }
 
     .blay-pic img {
-        width: 58%;
-        height: auto;
+        width: 89%;
+        height: 45%;
         margin: 0;
         box-shadow: none;
         overflow: hidden;
-        box-shadow: 0px 10px 5px 4px;
         margin-top: 34%;
         border-radius: 20%;
+        margin-left:-17%;
     }
 
     .blay-pic h2 {
@@ -148,13 +148,10 @@
         background-repeat: no-repeat;
     }
 
-
-   
-
-
     .next h2 {
         font-size: 1rem;
         text-align: center;
+        color: #df0ad4;
     }
 
     .next h3 {
@@ -169,14 +166,14 @@
         margin: 10px auto;
     }
     .socials p {
-        color: #ffffff;
+        color: #df0ad4;
         font-size: .6rem;
         align-items: center;
         text-align: center;
         margin-left: 32%;
     }
     .socials p a {
-        color: white;
+        color: #df0ad4;
         text-decoration: none;
         margin-left: 3%;
     }

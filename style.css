@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: radial-gradient(circle, #202020, #0c0c0c);
+    background-color: white;
 }
 .blay-pic {
     height: auto;
@@ -13,7 +13,7 @@ body {
     display: absolute;
     left:20%;
     margin-left: 20%;
-    top: 10%;
+    top:-1%;
 }
 .container {
     height: 100vh;
@@ -24,7 +24,6 @@ img {
     height: auto;
     margin-left: 36%;
     position: absolute;
-    top: 2%;
     left: 20%;
     
 }
@@ -32,7 +31,7 @@ h2 {
     
     text-align: center;
     font-size: 2.5rem;
-    color: #df0ad4;
+    color: #0c0b0c;
     margin-top: 20px;
 }
 nav {
@@ -84,7 +83,7 @@ nav ul {
 h1 {
     text-align: center;
     font-size: 3rem;
-    color: #fcfbfb;
+    color: #080202;
     margin-top: 1px;
     margin-right: 57%;
 }
@@ -103,7 +102,7 @@ span {
 }
 p {
     font-size: 1rem;
-    color: white;
+    color: rgb(7, 0, 0);
     margin-top: 20px;
     margin-right: 57%;
     line-height: 2;
@@ -118,7 +117,7 @@ p {
     text-align: center;
     align-items: center;
     font-size: 1.5rem;
-    color: #ffffff;   
+    color: #070101;   
 }
 .next a {
     text-decoration: none;
@@ -199,8 +198,9 @@ p {
     align-items: center;
     text-align: center;
     margin-left:44%;
+    color: #df0ad4;
 }
 .socials p a {
-        color: white;
+        color: #df0ad4;
         text-decoration: none;
 }
